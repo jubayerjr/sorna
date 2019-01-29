@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+*{margin:0px;padding:0px;}
+image{width:100%; max-width:100%}
+body{font-size:16px; line-height:25px; font-family: 'Montserrat', sans-serif;}
+.header{width:100%;background:#545454;height: 65px;margin-top: -5px;border-bottom:3px solid #09b7ea;}
+.main_container{
+	width:1170px;
+	margin: 0px auto;
+	overflow:hidden;
+	color: white;
+}
+.main_container .logo_adv .logo {
+    width: 200px;
+    float: left;
+    padding: 15px 17px;
+}
+
+.main_container .logo_adv .logo img {
+    width: 111px;
+    float: left;
+    height: 39px;
+}
+
+.main_container .logo_adv .banner {
+    width: 600px;
+    float: right;
+    padding: 15px;
+}
+
+.main_container .logo_adv .banner img {
+    height: 65px;
+    float: left;
+    width: 600px;
+}
+.main_menu {
+	overflow:hidden;
+}
+.main_menu ul{
+	list-style:none;
+}
+.main_menu ul li {
+	padding: 8px 14px;
+	float:left;
+}
+.main_menu ul li a {
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+}
+.main_menu ul li:hover{
+	background:#6bf30996;
+	border-bottom:2px solid red;
+}
+section#service {
+    padding-top: 25px;
+    background: #dcdbdb82;
+    background-image:url("img/service_back.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.serviceTitle {
+    width: 250px;
+    border-bottom: 3px solid #09b7ea;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5px;
+    color: #6ec82d;
+    background: #414a38;
+    border-radius: 4px;
+}
+.mainBlock {
+    display: inline-block;
+    padding: 20px 33px;
+}
+.serviceBlock {
+    width: 340px;
+    padding: 5px 2px;
+    color: #ffffff;
+    border: 2px solid #6ec82d;
+    background: #0c1715c2;
+    border-radius: 5px;
+    display:inline-block;
+    float: left;
+    margin: 10px;
+	transition:all 1s;
+	height: 155px;
+	animation-name:serviceBlockzoom;
+	animation-duration:1s;
+	
+}
+@keyframes serviceBlockzoom{
+	from{transform:scale(0.1)}
+	to {transform:scale(1)}
+}
+
+.serviceBlock:hover {background:#6bf30996;transform:scale(0.9);cursor:pointer;}
+.serviceBlock:hover i {color:black;}
+.serviceBlock:hover .serviceName  {color:white;}
+
+.icon {
+    font-size: 40px;
+    text-align: center;
+    color: #6ec82d;
+    padding-top: 10px;
+}
+
+.serviceName {
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    color: #6ec82d;
+    padding-top: 7px;
+}
+
+.serviceDec {
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 15px;
+	color:white;
+	display: inline-block;
+}
+
+
+
+#contact{
+	
+background-color: #545454;
+	
+background-attachment: fixed;
+	
+padding: 5px;
+}
+
+.contact_title{
+	text-align:center;
+	border-bottom:3px solid #09b7ea;
+	width:250px;
+	margin:10px auto;
+	margin-bottom:25px;
+	padding-bottom: 10px;
+	
+}
+.contact_box {
+    width: 500px;
+    float: left;
+}
+.sec_adress {
+	width:500px;
+	overflow:hidden;
+	margin: 0px;
+	color: white;
+	
+}
+.sec_adress .sec_icon{
+	float:left;
+	width: 70px;
+}
+.sec_adress .icon {
+    float: left;
+    
+    width: 39px;
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    padding: 6px 0px;
+    border-radius: 17px;
+}
+
+
+.sec_adress .location{
+	float:right;
+	overflow:hidden;
+	width:430px;
+}
+.sec_adress .location .address{
+	margin-top: 6px;
+}
+.email{
+	float:right;
+	width:600px;
+}
+.email input{
+	width:100%;
+	padding:10px;
+	border:1px solid #09b7ea;
+	overflow:hidden;
+}
+.email input .email_box{
+	overflow:hidden;
+	width:400px;
+}
+.email textarea{
+	width:100%;
+	border:1px solid #09b7ea;
+	overflow:hidden;
+}
+.email .submit{
+	width:25%;
+	background-color:#09b7ea;
+	border-radius:5px;
+	color:white;
+}
+.email .submit:hover{
+	background:#2a97b7;
+	border:2px solid white;
+	cursor:pointer;
+}
+.copyright{
+	background:#3c3939;
+	text-align:center;
+	color:white;
+	padding:8px;
+	font-size:14px;
+}
+.copyright a{
+	text-decoration:none;
+	font-size:14px;
+	color:red;
+	font-weight:bolder;
+}
